@@ -38,3 +38,21 @@ console.log(emp3.describe());
 console.log(mgr1.describe());
 console.log(mgr2.describe());
 console.log(mgr3.describe());
+
+//Step 5: Create company class 
+class Company {
+  constructor() {
+    this.employees = [];
+  }
+
+  addEmployee(employee) {
+    this.employees.push(employee);
+  }
+
+  listEmployees() {
+    console.log("Company Employee List:");
+    this.employees.forEach(emp => {
+      console.log(emp.describe());
+    });
+  }
+}

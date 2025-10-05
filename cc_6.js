@@ -56,3 +56,15 @@ class Company {
     });
   }
 }
+
+//Step 6: Instantiate a company object, add both employee manager instances, and call list employees
+const myCompany = new Company();
+myCompany.addEmployee(emp1);
+myCompany.addEmployee(emp2);
+myCompany.addEmployee(emp3);
+myCompany.addEmployee(mgr1);
+myCompany.addEmployee(mgr2);
+myCompany.addEmployee(mgr3);
+
+//List all employees
+myCompany.listEmployees();

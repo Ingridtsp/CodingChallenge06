@@ -32,3 +32,9 @@ const mgr1 = new Manager ("Jade Hidalgo", "Finance", 7);
 const mgr2 = new Manager ("Jonathan Hidalgo", "Engineering", 8);
 const mgr3 = new Manager ("James Hidalgo", "Operations", 12);
 
+console.log(emp1.describe());
+console.log(emp2.describe());
+console.log(emp3.describe());
+console.log(mgr1.describe());
+console.log(mgr2.describe());
+console.log(mgr3.describe());

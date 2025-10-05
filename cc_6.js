@@ -23,3 +23,12 @@ describe(){
 
 }
 }
+
+//Step 4: Create a few sample employees and managers
+const emp1 = new Employee ("Melanie Tejada", "Finance");
+const emp2 = new Employee ("Melissa Tejada", "Executive Assistant");
+const emp3 = new Employee ("Kevin Tejada", "Operations");
+const mgr1 = new Manager ("Jade Hidalgo", "Finance", 7);
+const mgr2 = new Manager ("Jonathan Hidalgo", "Engineering", 8);
+const mgr3 = new Manager ("James Hidalgo", "Operations", 12);
+
